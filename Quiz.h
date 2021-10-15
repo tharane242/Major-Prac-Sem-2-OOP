@@ -9,6 +9,7 @@ class Quiz {
 
         virtual int mark()=0;
         virtual void print_results()=0;
+        void question_display(int count);
 
 };
 #endif
